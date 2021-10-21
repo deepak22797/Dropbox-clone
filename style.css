@@ -1,0 +1,427 @@
+*{
+    box-sizing: border-box;
+}
+#icon{
+    float: left;
+}
+
+#logo-name{
+    float: left;
+    text-decoration: none;
+    padding-top: 9px;
+    padding-left: 10px;
+    flex: 3;
+    font-size: x-large;
+}
+
+.right-items,.left-items{
+    text-decoration: none;
+    margin: auto 2rem;  
+    
+}
+
+
+
+.main-left,.main-right{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    
+}
+#rightbutton{
+    background: #0070e0;
+    color: white;
+    border: #0070e0;
+    padding: 1rem;
+}
+
+.para1{
+    width: 50%;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+#id{
+    font-size: xx-large;
+}
+h3{
+    margin: 0;
+}
+
+#left-button{
+    background-color: #0070e0 ;
+    width: 540px;
+    height: 60px;
+    border: #0070e0;
+    color: white;
+}
+
+.rightsec1{
+    background: #fff;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background: #be4b0a;
+}
+.rightsec1 img{
+    
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.leftsec1{
+    
+    padding: 20px;
+    width: 50%;
+    
+}
+
+.sec1{
+    background-color: whitesmoke;
+    width: 100%;
+    padding-bottom: 1rem; 
+    display: flex;   
+}
+
+.para11{
+    padding-top: 20px;
+}
+
+.para12{
+    padding-top: 220px;
+    
+}
+
+.leftsec1 .para11 h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.rightsec1 video{
+    margin: 5rem;
+    width:  20rem;
+}
+
+.sec2{
+    background: whitesmoke;
+    height: 450px;
+}
+
+.parasec2 h1{
+    margin-top: 0;
+}
+.parasec2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#secsync{
+    padding-left: 75px;
+}
+.secsubicon{
+    padding-left: 240px;
+}
+
+#secname{
+    padding-left: 75px;
+}
+
+#secname3{
+    padding-left: 270px;
+}
+.secsubname{
+    padding-left: 180px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sec2-para{
+    display: flex;
+    justify-content: space-around;
+}
+.sec2-para1 h1{
+    margin-bottom: 0;
+}
+.sec2-para1{
+    text-align: center;
+    font-size: xx-large;
+}
+.sec2-para2 p{
+    margin: 2px;
+}
+.sec2-para2{
+    text-align: center;
+}
+
+.sec3{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    
+    
+    
+}
+
+.sec3-left{
+    width: 50%;
+    height: 600px;
+
+    
+    
+}
+.sec3-right{
+    width: 50%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+hr{
+    margin: 0;
+    width: 100%;
+    margin-left: 7%;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.sec3-left1{
+    border-top: #d5d1cb solid;
+    padding: 1rem 0;
+}
+.sec3-left1:last-child{
+    border-top: #d5d1cb solid;
+    border-bottom: #d5d1cb solid;
+    
+}
+.sec3-left1 h3{
+    padding-left: 60px;
+    margin-bottom: 20px;
+
+}
+
+.sec3left-learn{
+    margin-top: 40px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+
+.sec3left-para1 p{
+    padding-left: 60px;
+}
+.sec3left{
+    width: 50%;
+    height: 600px;
+    border-top: #d5d1cb solid;
+    
+    
+    padding:  1rem 0;
+    margin: 0 1rem;
+}
+
+.sec4{
+    background: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    height: 600px;
+    
+}
+
+
+
+.sec4-imageleft{
+    width: 50%;
+    margin: 0;
+    float: left;
+    padding-left: 76px;
+}
+
+.sec4-imageright{
+    width: 50%;
+    float: left;
+    padding-right: 76px;
+}
+
+.sec4-imagetext{
+    width: 100%;
+    background: #fff;
+    
+}
+
+.sec4-imagetextleft{
+    width: 50%;
+    float: left;
+}
+.sec4-imagetextleftsub1 p{
+    font-size: medium;
+}
+.sec4-imagetextleftsub2{
+    
+    margin-top: 60px;
+}
+
+
+
+.sec4-imagetextright{
+    width: 50%;
+    float: right;
+}
+.sec4-imagetextrightsub1 p{
+    font-size: medium;
+    margin-bottom: 34px;
+}
+
+.sec4-imagetextrightsub2{
+    margin-top: 0;
+}
+
+.sec5{
+    background:whitesmoke;
+    width: 100%;
+    height: 800px;
+}
+.sec5-iconabovetext{
+    
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.sec5-iconabovetext a{
+    font-size: medium;
+}
+
+
+.sec5-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec5-iconstext{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:40px
+}
+
+.sec5-icons1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec5-icons1text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec6{
+    width: 100%;
+    
+    background: black;
+    display: flex;
+}
+.sec6sub1{
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+    background: black;
+}
+
+.imagefooter{
+    
+}
+
+.sec6sub2{
+    width: 50%;
+    height: 300px;
+    background: #9b0032;
+    font-size: x-large;
+    display: flex;
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+sec6-name{
+    color: white;
+}
+#arrow:hover{
+    position: relative;
+    display:block ;
+    background: black;
+    padding: 3rem;
+    top: 250px;left: 550px
+}
+#arrow{
+    position: relative;top: 300px;left: 600px
+}
+
+.sec7{
+    background: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.sec7 p{
+    margin: 0;
+}
+.sec8{
+    background: black;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec8 button{
+    width: 10rem;
+    height: 2rem;
+}
+
+.ninemain{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+}
+.sec9{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.sec9 a{
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+}
+.sec9 h3{
+    margin: 1rem 0;
+}
+.final .icons{
+    padding: 2rem 0;
+}
+.final .icons:last-child{
+    border-top: 1px solid white;
+}
+.icons i{
+    color: white;
+}
+#spacing-icons{
+    padding: 20px;
+}
